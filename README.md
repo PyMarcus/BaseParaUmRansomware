@@ -1,4 +1,7 @@
 # BaseParaUmRansomware
+(atualização1) = melhoria ao percorrer as pastas
+(atualizacao2) = renomear script e acrescentar a reversão no script de descriptofia (falta subir isso ainda)
+(atualizacao3) = mudar o papel de parede do pc e outras coisas (pendente)
 
 *****************************************************************************************
 NAO ME RESPONSABILIZO POR QUALQUER USO INDEVIDO DESTE TRABALHO, CONHECIMENTO NÃO É CRIME
