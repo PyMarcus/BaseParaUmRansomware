@@ -1,5 +1,7 @@
 # BaseParaUmRansomware
 
+(A VERSÃO MAIS EFICIENTE ESTÁ NO BRANCH MASTER)
+
 *****************************************************************************************
 NAO ME RESPONSABILIZO POR QUALQUER USO INDEVIDO DESTE TRABALHO, CONHECIMENTO NÃO É CRIME
 *****************************************************************************************
